@@ -15,11 +15,7 @@ function App() {
 
   if (!displayed) return <p>Loading...</p>;
 
-  return (
-    <>
-      {<img src={displayed} alt="A Random Dog" width="500px" height="500px" />}
-    </>
-  );
+  return <img src={displayed} alt="A Random Dog" />;
 }
 
 export default App;
